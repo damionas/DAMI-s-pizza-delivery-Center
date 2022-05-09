@@ -1,0 +1,28 @@
+print("Welcome to DAMI's pizza delivery Center")
+bill = 0
+size = input("What size of pizza do you want? S, M , L")
+if size == 'S':
+    bill += 15
+    so = input("Do you want pepperoni for the small pizza \n Y or N")
+    if so == 'Y':
+        bill += 2
+    New = input("Do you want extra cheese? Y or N ?")
+    if New == 'Y':
+        bill += 1
+if size == 'M':
+    bill += 20
+    yo = input("Do you want pepperoni for the small pizza \n Y or N")
+    if yo == 'Y':
+        bill += 3
+    New = input("Do you want extra cheese? Y or N ?")
+    if New == 'Y':
+        bill += 1
+if size == 'L':
+    bill += 25
+    zo = input("Do you want pepperoni for the small pizza \n Y or N")
+    if zo == 'Y':
+        bill += 3
+    New = input("Do you want extra cheese? Y or N ?")
+    if New == 'Y':
+        bill += 1
+print(bill)
